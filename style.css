@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    margin-top: 10;
+    padding-top: 800px;
+}
+.pic{
+    width: 500px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+#hb{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient( #8000ff 0%, #b300ff 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+#name{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+}
+#para{
+    margin-top: -110;`
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.3;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+}
+.links{
+    float: left;
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: skyblue;
+}
+a{
+    color: purple;
+    text-decoration: none;
+}
+.pic2{
+    width: 800px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.img{
+    width: 100px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
